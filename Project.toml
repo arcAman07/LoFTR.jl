@@ -1,0 +1,13 @@
+name = "LoFTR"
+uuid = "7cf0b8dc-d081-4efd-b43d-efb3285a6a4a"
+authors = ["Aman <aman.sharma2020b@vitstudent.ac.in> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
