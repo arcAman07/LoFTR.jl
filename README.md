@@ -1,5 +1,7 @@
 # LoFTR
 
+Code for "LoFTR: Detector-Free Local Feature Matching with Transformers", CVPR 2021 written in pure Julia
+
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://arcAman07.github.io/LoFTR.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://arcAman07.github.io/LoFTR.jl/dev)
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://arcAman07.github.io/LoFTR.jl/stable)
