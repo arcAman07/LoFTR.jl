@@ -3,6 +3,9 @@ uuid = "7cf0b8dc-d081-4efd-b43d-efb3285a6a4a"
 authors = ["Aman <aman.sharma2020b@vitstudent.ac.in> and contributors"]
 version = "0.1.0"
 
+[deps]
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+
 [compat]
 julia = "1"
 
