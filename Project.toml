@@ -6,7 +6,9 @@ version = "0.1.0"
 [deps]
 Einsum = "b7d42ee7-0b51-5a75-98ca-779d3107e4c0"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 
 [compat]
 julia = "1"

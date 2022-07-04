@@ -1,6 +1,7 @@
 module LoFTR
 using Flux
-using 
+using PyCall
+using Interpolations
 # Write your package code here.
 include("utils/coarse_matching.jl")
 include("utils/fine_matching.jl")
