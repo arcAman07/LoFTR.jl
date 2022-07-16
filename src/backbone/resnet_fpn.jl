@@ -27,7 +27,7 @@ function BasicBlock(in_planes, out_planes,stride=1,x::AbstractArray)
   if (downsample != None)
     x = downsample(x)
   end
-  return relu(x+y)
+  return @. relu(x+y)
 end
 
 function makeLayer(in_planes, dim, stride=1, x::AbstractArray)
