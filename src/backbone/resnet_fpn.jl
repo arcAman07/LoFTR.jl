@@ -43,13 +43,9 @@ end
 #     Each block has 2 layers.
 #     """
 
-function ResNetFPN_8_2(x::AbstractArray)
-  # Config
-  inital_dim = 128
+function ResNetFPN_8_2(x::AbstractArray,inital_dim = 128,inner_dim = 196,outer_dim = 256)
   # Class Variable
   in_planes = inital_dim
-  inner_dim = 196
-  outer_dim = 256
   # Networks
   conv1 = Conv((7,7), 1 => inital_dim, stride=2, padding=3, bias=False)
   bn1 = BatchNorm(initial_dim,relu)
@@ -85,7 +81,7 @@ function ResNetFPN_8_2(x::AbstractArray)
    x2_out_2x = interpolate(x2_out,BSpline(Linear()))
    x1_out = self.layer1_outconv2(x1_out + x2_out_2x)
 
-   return [x3_out, x1_out]
+   return (x3_out, x1_out)
 end
 
 
